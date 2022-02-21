@@ -13,5 +13,5 @@ const topMovieIds = [
   'tt0120737',
 ];
 
-const topMoviesInfo = topMovieIds.map((id) => axios.get(`http://www.omdbapi.com/?i=${id}&apikey=8a576707`));
+const topMoviesInfo = topMovieIds.map((id) => axios.get(`https://www.omdbapi.com/?i=${id}&apikey=8a576707`));
 export default topMoviesInfo;
