@@ -44,7 +44,7 @@ function Navbar() {
           </Box>
           <Box textAlign="center">
             <Box my={1}>
-              <Typography variant="h6">{dateFormat(time, 'ddd, mmm d yyyy, h:MM:ss TT')}</Typography>
+              <Typography variant="h6">{dateFormat(time, 'ddd, mmm d yyyy, hh:MM:ss TT')}</Typography>
             </Box>
             <Button
               variant="contained"
